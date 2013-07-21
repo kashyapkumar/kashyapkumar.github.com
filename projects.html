@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <title>Kashyap Krishnakumar</title>
+    <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+    <meta name = "description" content = "Kashyap Krishnakumar, B.E.">
+    <meta name = "author" content = "Kashyap Krishnakumar">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel = "stylesheet" href = "twitter-bootstrap/docs/assets/css/bootstrap.css">
+    <style type="text/css">
+    .socials {
+      padding: 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <!--code for facebook like starts-->
+    <div id="fb-root"></div>  
+    <script>(function(d, s, id) {  
+      var js, fjs = d.getElementsByTagName(s)[0];  
+      if (d.getElementById(id)) return;  
+      js = d.createElement(s); js.id = id;  
+      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";  
+      fjs.parentNode.insertBefore(js, fjs);  
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!--code for facebook like ends-->
+    <div class = "navbar navbar-fixed-top">
+      <div class = "navbar-inner" bgcolor = "black">
+        <div class = "container">
+          <ul class = "nav">
+            <li><a class = "brand" href="index.html">Kashyap Krishnakumar</a></li>
+	    <li><a href = "coding.html">Coding</a></li>
+	    <li class = "active"><a href = "projects.html">Projects</a></li>
+	    <li><a href = "academics.html">Academics</a></li>
+	    <li><a href = "Kashyap Krishnakumar.pdf">Resume</a></li>
+	  </ul>
+	  <form class = "navbar-search pull-left">
+            <input type = "text" class = "search-query" placeholder = "Search">
+          </form>
+          <ul class="nav pull-right">  
+            <li class="dropdown">  
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>  
+              <ul class="dropdown-menu">  
+                <li class="socials"><g:plusone annotation="inline" width="150"></g:plusone></li>  
+                <li class="socials"><div class="fb-like" data-send="false" data-width="150" data-show-faces="true"></div></li>  
+                <li class="socials"><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>  
+                   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>  
+              </ul>  
+            </li>  
+          </ul>  
+        </div>  
+      </div>  
+    </div>
+    <div class = "hero-unit">
+      <div class = "tabbable">
+        <ul class = "nav nav-tabs">
+          <li class = "active"><a href ="#be" data-toggle = "tab">BE Project</a></li>
+          <li><a href = "#msft" data-toggle = "tab">Microsoft Internship</a></li>
+	  <li><a href = "#hobby" data-toggle = "tab">Hobby projects</a></li>
+        </ul>
+        <div class = "tab-content">
+          <div class = "tab-pane fade in active" id = "be">
+	    <h4>Machine Translation</h4>
+	    <p>We implemented a machine translation system to translate the input English language sentences to Tamil language sentences preserving the meaning. <a href = "http://en.wikipedia.org/wiki/Universal_Networking_Language">Universal Networking Language(UNL)</a> was used as an intermediate. This approach is a hybrid of rule-base and knowledge-based approaches to Machine Translation.</p>
+	    <p>UNL, Universal Networking Language, is a declarative formal language speciﬁcally designed to represent semantic data extracted from natural language text. The process of conversion from any natural language to UNL is called Enconversion and the reverse process is called Deconversion. Thus translation from one language to another (English to Tamil) can be accomplished by using an Enconverter of source language (English) and Deconverter of target language (Tamil).</p>
+            <p>Using this approach we achieved a BLEU score of 0.581 which denotes that most of the information in the input sentence is retained. The scores obtained using UNL based approach shows that it is the best approach to Machine Translation when compared with other existing approaches.</p>
+  	  </div>
+	  <div class = "tab-pane fade in" id = "msft">
+	    <h4>EDI Partner-Agreement Migration</h4>
+	    <p>The project aimed at bootstrapping the BizTalk EDI Partner and Agreement data from the local BizTalk server to the Azure database to enable customers using the BizTalk server to switch to the Azure service. The UI for the tool was created using Windows Presentation Foundation. The project was part of my internship at Microsoft India Development Centre, Hyderabad at the end of my 3<sup>rd</sup> year of BE.</p>
+	  </div>
+	  <div class = "tab-pane fade in" id = "hobby">
+	    <h4>New Year Greetings Automated</h4>
+            <p>Inspired by a friend of mine, <a href = "http://www.facebook.com/saurabh8c">Saurabh Singh</a>, who had posted about a python script he had written, I decided to create a similar script which would do a slight modification of his idea.</p>
+	    <p>What his script does: Once you provide the authentication details of your Gmail account to the script, it will email new year greetings to all your friends.</p>
+	    <p>What my script does: Once you provide authentication detials of your Gmail account to the script, it will send a new year greeting via chat to anyone who comes online for the first time while the script is running. It keeps track of an already wished list to avoid wishing the same person twice. It was implemented using xmpp libraries.</p>
+	  </div>
+        </div>
+      </div>
+    </div>
+    <script src="twitter-bootstrap/docs/assets/js/jquery.js"></script>
+    <script src="twitter-bootstrap/docs/assets/js/bootstrap.js"></script>  
+    <!--code for google plus starts-->
+    <script type="text/javascript">  
+    (function() {  
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;  
+    po.src = 'https://apis.google.com/js/plusone.js';  
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);  
+    })();  
+    </script>
+    <!--code for google plus ends-->
+  </body>
+</html>
