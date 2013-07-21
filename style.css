@@ -1,6 +1,9 @@
 body {
+  padding-top:60px;
+  padding-bottom:60px;
   padding-left: 100px;
   padding-right: 100px;
+  line-height:3;
   overflow-y: scroll;
   overflow-x: scroll;
   overflow: -moz-scrollbars-vertical;
@@ -10,3 +13,10 @@ p {
   font-size:15px;
 }
 
+table {
+  font-size:15px;
+}
+
+ul {
+  font-size:15px;
+}
