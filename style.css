@@ -3,20 +3,58 @@ body {
   padding-bottom:60px;
   padding-left: 100px;
   padding-right: 100px;
-  line-height:3;
   overflow-y: scroll;
   overflow-x: scroll;
   overflow: -moz-scrollbars-vertical;
+  font-family:Verdana;
+  background-color:black;
+}
+
+.navbar-inner {
+  background-color:black;
+}
+
+.hero-unit {
+  background-color:#303030;
+  color:white;
 }
 
 p {
+  line-height:20px;
   font-size:15px;
 }
 
 table {
+  line-height:20px;
   font-size:15px;
 }
 
 ul {
+  line-height:20px;
   font-size:15px;
 }
+
+h3 {
+  color:black;
+}
+
+h4 {
+  text-decoration:underline;
+}
+
+.navbar-inner {
+  background-color: #000; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color:  #ddd;
+}
+
