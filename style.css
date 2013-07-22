@@ -1,21 +1,18 @@
 body {
-  padding-top:60px;
-  padding-bottom:60px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin:0px auto;
+  width:1000px;
   overflow-y: scroll;
   overflow-x: scroll;
   overflow: -moz-scrollbars-vertical;
-  font-family:Verdana;
-  background-color:black;
-}
-
-.navbar-inner {
+  font-family:monospace;
   background-color:black;
 }
 
 .hero-unit {
   background-color:#303030;
+  border:1px dashed #0670bd;
   color:white;
 }
 
@@ -35,18 +32,40 @@ ul {
 }
 
 h3 {
-  color:black;
+  color:#0670bd;
 }
 
 h4 {
-  text-decoration:underline;
+  color:#0670bd;
 }
 
 .navbar-inner {
-  background-color: #000; /* background color will be black for all browsers */
+  background-color:black;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-inner {
+  background-color: #000000;
   background-image: none;
   background-repeat: no-repeat;
+  border:1px dashed #0670bd;
   filter: none;
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+  background-color: #0670bd;
+  color: white;
+}
+
+.tabbable .nav .active > a, .tabbable .nav .active > a:hover {
+  background-color: #0670bd;
+  color: white;
 }
 
 .navbar .nav > li > a {
@@ -55,6 +74,5 @@ h4 {
     padding: 9px 10px 11px;
     text-decoration: none;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    color:  #ddd;
+    color:  #3ea4ed;
 }
-
